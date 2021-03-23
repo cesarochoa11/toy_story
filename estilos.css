@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/* CSS Document */
+/*
+Reglas CSS
+
+selector {
+	propiedad: valor;
+}
+*/
+
+/*Normalización*/
+*{
+	margin:0;
+	padding:0;
+}
+html{
+	font-family: arapey, gfs-neohellenic;
+	font-size: 16px;	
+}
+body{ 
+	background-image: url("img/fondo2.png");
+}
+
+
+#contenedor{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(197,197,197,0.41);
+}
+
+.imgHeader{
+	width: 100%;
+}
+
+
+h2{ 
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	}
+
+.personajes{ 
+	margin-top: 30px; padding: 15px; background: rgba(176,176,176,0.51);
+}
+.imgPersonaje{width: 38%; float: left;}
+.imgPersonaje img{ border-radius: 50%; max-width: 250px;}
+.txtPersonaje{width: 58%; float: right;}
+.txtPersonaje p{margin-top: 15px; }
+.linkpersonaje{margin-top: 15px; }
+
+
+
+
+.clearfloat {
+	clear: both;
+}
+
+footer{
+	margin-top: 50px;
+	text-align: right;
+	padding: 2em;
+	background-image: url("img/footer.jpg");
+	height: 90px;
+}
